@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Raleway:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  /* background-color: red; */
+  width: 963px;
+  height: 3098px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header h1 {
+  margin-left: 20px;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+.seccion-1 {
+  margin-top: 84px;
+  display: flex;
+}
+.seccion-1-1 {
+  width: 50%;
+}
+.seccion-1- {
+  width: 50%;
+}
