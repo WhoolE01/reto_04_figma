@@ -6,11 +6,13 @@
 body {
   display: flex;
   justify-content: center;
+  font-family: "Raleway", sans-serif;
 }
 main {
   /* background-color: red; */
   width: 963px;
   height: 3098px;
+  margin: 0 auto;
 }
 header {
   display: flex;
@@ -25,7 +27,7 @@ header ul {
   justify-content: space-between;
 }
 header h1 {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 header ul li {
   list-style: none;
@@ -36,8 +38,72 @@ header ul li {
   display: flex;
 }
 .seccion-1-1 {
+  margin-left: 40px;
   width: 50%;
 }
-.seccion-1- {
+.seccion-1-1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+}
+.seccion-1-1 h2 span {
+  color: #00cf95;
+}
+.parrafo_gracias {
+  width: 80%;
+  border-left: #00cf95 solid 3px;
+  padding: 10px;
+  line-height: 24px;
+}
+.button_logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.button_logos button {
+  width: 30%;
+  height: 20%;
+  background: #6d0ad3;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+}
+.button_logos {
+  display: flex;
+  justify-content: flex-start;
+}
+.iconos_contacto {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.iconos_contacto img {
+  margin-left: 10px;
+}
+.seccion-1-2 {
   width: 50%;
+  display: flex;
+}
+.foto_perfil {
+  width: 302px;
+  height: 302px;
+}
+.iconos_seguidores {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.flecha {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.flecha p {
+  margin: 0 auto;
+  color: #00cf95;
+}
+.flecha_verde {
+  margin: 0 auto;
 }
