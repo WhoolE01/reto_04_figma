@@ -34,6 +34,14 @@ header ul li {
   list-style: none;
   margin-left: 20px;
 }
+
+li:hover {
+  cursor: url("./img/img-section-4/Vector.png"), auto;
+  color: #00cf95;
+  border-bottom: #00cf95 solid 3px;
+}
+
+/* seccion 1 */
 .seccion-1 {
   margin-top: 84px;
   display: flex;
@@ -140,6 +148,18 @@ header ul li {
   justify-content: center;
   align-items: flex-start;
   border-radius: 15px;
+  transition: all 500ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.doble:hover > .cartilla {
+  opacity: 1;
+  visibility: visible;
+}
+.doble:hover {
+  border: #00cf95 solid 3px;
+  border-radius: 5px;
+  cursor: url("./img/img-section-4/Vector.png"), auto;
 }
 .cartilla h3,
 p {
