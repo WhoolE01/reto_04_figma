@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   display: flex;
@@ -9,7 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 main {
-  /* background-color: red; */
+  background-color: red;
   width: 963px;
   height: 3098px;
   margin: 0 auto;
@@ -106,4 +107,71 @@ header ul li {
 }
 .flecha_verde {
   margin: 0 auto;
+}
+
+/* seccion 2 */
+.seccion-2 {
+  margin-top: 35px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.doble {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #d1ffa2 solid 3px;
+}
+.doble img {
+  width: 100%;
+  height: 100%;
+}
+.cartilla {
+  position: absolute;
+  background: rgba(109, 10, 211, 0.8);
+  width: 83%;
+  height: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 15px;
+}
+.cartilla h3,
+p {
+  color: white;
+  margin-left: 20px;
+}
+.cartilla h3 {
+  font-size: 18px;
+  width: 81px;
+  height: 24px;
+}
+.cartilla p {
+  margin-top: 5px;
+  font-size: 13px;
+  width: 126px;
+  height: 39px;
+  line-height: 20px;
+}
+.skills {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills span {
+  color: #580aaf;
+  background-color: #d1ffa2;
+  border-radius: 7px;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-right: 5px;
 }
