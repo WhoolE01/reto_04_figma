@@ -121,6 +121,9 @@ li:hover {
 .seccion-2 {
   margin-top: 35px;
 }
+.seccion-2 h2 {
+  color: #0098ef;
+}
 .contenedor {
   display: flex;
   justify-content: space-around;
@@ -161,12 +164,13 @@ li:hover {
   border-radius: 5px;
   cursor: url("./img/img-section-4/Vector.png"), auto;
 }
-.cartilla h3,
-p {
+.cartilla p {
   color: white;
   margin-left: 20px;
 }
 .cartilla h3 {
+  color: white;
+  margin-left: 20px;
   font-size: 18px;
   width: 81px;
   height: 24px;
@@ -194,4 +198,99 @@ p {
   font-weight: 600;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+/* seccion3 */
+
+.seccion-3 {
+  margin-top: 105px;
+}
+.seccion-3 h2 {
+  color: #0098ef;
+}
+.card_service {
+  height: 750px;
+  display: grid;
+  grid-template-columns: 310px 310px;
+  grid-template-rows: 220px 220px 220px;
+  grid-gap: 18px;
+  justify-content: center;
+  align-content: center;
+}
+
+.cuadro {
+  position: relative;
+  width: 308px;
+  height: 218px;
+  background-color: #00cf95;
+  border: #d1ffa2 solid 3px;
+}
+.cuadro div {
+  position: absolute;
+  background-color: #d1ffa2;
+  width: 146px;
+  height: 48px;
+  margin-top: 150px;
+  margin-left: 158px;
+  border-radius: 8px 0px 0px 8px;
+}
+.cuadro div p {
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: center;
+  color: #5a0cb0;
+  font-family: poppins;
+}
+.cuadro figure {
+  position: absolute;
+  left: 4.17%;
+  right: 4.17%;
+  top: 16.67%;
+  bottom: 12.5%;
+}
+.cuadro:hover {
+  border: #5a0cb0 solid 3px;
+  border-radius: 5px;
+  cursor: url("./img/img-section-4/Vector.png"), auto;
+}
+
+.cuadro:hover > div {
+  background-color: #580aaf;
+  cursor: url("./img/img-section-4/Vector.png"), auto;
+}
+
+.cuadro:hover > div > p {
+  color: white;
+}
+.seccion_blog {
+  height: 750px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows: 500px;
+  justify-content: center;
+  grid-gap: 20px;
+}
+.seccion_blog p {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.cuadrado_1 {
+  display: grid;
+  grid-template-columns: 310px;
+  grid-template-rows: 250px 250px;
+}
+.cuadrado_2 {
+  display: grid;
+  grid-template-columns: 155px 155px;
+  grid-template-rows: 250px 250px;
+}
+.cuadrado_3 {
+  display: grid;
+  grid-template-columns: 310px;
+  grid-template-rows: 125px 125px 125px 125px;
+}
+.retoque {
+  width: 300px;
+  border: #d1ffa2 solid 5px;
 }
